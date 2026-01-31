@@ -6,7 +6,7 @@ This project is a web-based data analytics dashboard developed using Python Flas
 
 The goal of this project is to transform raw data into meaningful insights and make them accessible through a browser-based dashboard.
 
-📂 Data Collection
+# 📂 Data Collection
 
 Dataset was collected from Kaggle
 
@@ -16,7 +16,7 @@ Contains real-world structured data suitable for analytics and prediction
 
 Dataset includes multiple numerical and categorical attributes
 
-🧹 Data Cleaning
+# 🧹 Data Cleaning
 
 Data cleaning was performed using Pandas and NumPy to improve data quality:
 
@@ -30,7 +30,7 @@ Removed irrelevant columns
 
 Treated outliers where necessary
 
-🔄 Data Processing
+# 🔄 Data Processing
 
 After cleaning, data processing steps included:
 
@@ -42,7 +42,7 @@ Aggregation and grouping for analytics
 
 Preparing datasets for visualization and modeling
 
-📈 Exploratory Data Analysis (EDA)
+# 📈 Exploratory Data Analysis (EDA)
 
 EDA was conducted to understand patterns and trends in the data:
 
@@ -64,7 +64,7 @@ Matplotlib
 
 Seaborn
 
-🧠 Feature Engineering
+# 🧠 Feature Engineering
 
 Feature engineering was applied to enhance model performance:
 
@@ -78,7 +78,7 @@ Feature selection based on importance
 
 Preparing final feature set for modeling
 
-🤖 Model Building
+# 🤖 Model Building
 
 Machine learning models were built using Scikit-learn:
 
@@ -94,19 +94,7 @@ Mean Absolute Error (MAE)
 
 Best-performing model selected for deployment
 
-⚙️ Flask Application Development (app.py)
-
-The backend of the project was developed using Flask:
-
-Created routes for dashboard and analytics pages
-
-Integrated data processing and model logic
-
-Passed dynamic data to frontend using Jinja2
-
-Handled user inputs and responses
-
-🎨 Frontend Development (HTML, CSS, JavaScript)
+# 🎨 Frontend Development (HTML, CSS, JavaScript)
 
 Frontend interface was built using:
 
@@ -124,7 +112,20 @@ Interactive charts and tables
 
 Dropdowns and buttons for user interaction
 
-📊 Dashboard Development
+# ⚙️ Flask Application Development (app.py)
+
+The backend of the project was developed using Flask:
+
+Created routes for dashboard and analytics pages
+
+Integrated data processing and model logic
+
+Passed dynamic data to frontend using Jinja2
+
+Handled user inputs and responses
+
+
+# 📊 Dashboard Development
 
 The dashboard visualizes key insights and analytics:
 
@@ -140,7 +141,7 @@ User-friendly navigation
 
 Charts were rendered directly in the browser using dynamic data from Flask.
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 Python
 
